@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ProductInCart, ProductsService} from '../../services/products.service';
+import {ProductInCart, ProductService} from '../../services/product.service';
 
 @Component({
   selector: 'app-product-in-cart',
@@ -11,9 +11,9 @@ export class ProductInCartComponent {
 
   private productsInCart: ProductInCart[];
 
-  constructor(private productService: ProductsService) { }
+  constructor(private productService: ProductService) { }
 
-  removeProduct(product) {
+  removeProduct(product): void {
     this.productsInCart = JSON.parse(localStorage.getItem('cart')) || [];
     product.quantity--;
     const productIndex = this.productsInCart.findIndex(element => {

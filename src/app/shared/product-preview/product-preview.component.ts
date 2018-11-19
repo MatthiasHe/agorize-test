@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ProductInCart, ProductsService} from '../../services/products.service';
+import {ProductInCart, ProductService} from '../../services/product.service';
 
 @Component({
   selector: 'app-product-preview',
@@ -12,9 +12,9 @@ export class ProductPreviewComponent {
 
   private productsCart: ProductInCart[];
 
-  constructor(private productService: ProductsService) { }
+  constructor(private productService: ProductService) { }
 
-  addInBasket() {
+  addInCart() {
     this.productsCart = this.productService.getCartContent();
     if (this.productsCart.some(product => product.id === this.product.id)) {
       const productIndex = this.productsCart.findIndex(element => {

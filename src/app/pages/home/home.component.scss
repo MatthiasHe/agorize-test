@@ -5,14 +5,28 @@
 .products-list {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 0 5%;
+  overflow-y: scroll;
 
   .product {
-    width: 30%;
+    flex: 0 0 auto;
+    width: 90%;
     border: 1px solid;
     border-radius: 2em;
     overflow: hidden;
-    margin-bottom: 1em;
+    margin: 0 1em 1em 0;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .products-list {
+    flex-wrap: wrap;
+
+    .product {
+      width: 30%;
+      margin: 0 0 1em;
+    }
+  }
+
 }

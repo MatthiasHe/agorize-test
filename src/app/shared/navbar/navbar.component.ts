@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ProductsService} from '../../services/products.service';
+import {ProductService} from '../../services/product.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +9,7 @@ import {ProductsService} from '../../services/products.service';
 export class NavbarComponent implements OnInit {
   productsInCart: number;
 
-  constructor(private productService: ProductsService) { }
+  constructor(private productService: ProductService) { }
 
   ngOnInit() {
     this.productsInCart = this.productService.initializeCart();

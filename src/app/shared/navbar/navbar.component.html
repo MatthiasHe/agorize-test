@@ -1,11 +1,11 @@
 <nav class="navbar">
-  <span class="navbar-logo">My shop</span>
+  <span class="navbar-logo" routerLink="">My shop</span>
   <ul class="navbar-actions">
     <li>
-      <span class="navbar-element">Products</span>
+      <span routerLink="" class="navbar-element">Products</span>
     </li>
     <li>
-      <span class="navbar-element">Card <span *ngIf="productsInCart">({{ productsInCart }})</span></span>
+      <span routerLink="/cart" class="navbar-element">Card <span *ngIf="productsInCart">({{ productsInCart }})</span></span>
     </li>
   </ul>
 </nav>

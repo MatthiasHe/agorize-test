@@ -21,7 +21,7 @@ export interface ProductInCart {
   providedIn: 'root'
 })
 
-export class ProductsService {
+export class ProductService {
   private cartSubject = new Subject<any>();
   private apiUrl = 'http://localhost:3000';
   private productsNumberInCart = 0;
@@ -53,7 +53,7 @@ export class ProductsService {
     return JSON.parse(localStorage.getItem('cart')) || [];
   }
 
-  updateCartContent(newCart: ProductInCart[], increment: boolean) {
+  updateCartContent(newCart: ProductInCart[], increment: boolean): void {
     this.updateCartNumber(increment);
     return localStorage.setItem('cart', JSON.stringify(newCart));
   }

@@ -1,5 +1,5 @@
 <h1 class="cart-title">Cart</h1>
-<div *ngIf="!cartContent.length">
+<div *ngIf="isEmpty">
   <h6 class="cart-empty">YOUR CART IS EMPTY</h6>
 </div>
 <div *ngFor="let product of cartContent" class="cart-product">
