@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/15/14/pp-hot-coffee-rf-istock.jpg?w968h681",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit imperdiet pellentesque. Praesent ac lectus quis felis viverra auctor. Aliquam facilisis risus ac lacus ornare, vitae faucibus ipsum hendrerit. Nam sit amet egestas nulla. Maecenas quis gravida velit. Aenean posuere suscipit dignissim. Vivamus rutrum odio nec venenatis blandit. Maecenas dapibus venenatis est. Pellentesque at est nibh. Aenean bibendum mi elit, quis porta massa auctor in. Nunc venenatis at arcu sed condimentum. Morbi sollicitudin fermentum elit, eu tempus neque feugiat nec. Nulla facilisi. Sed ac suscipit dui. Nullam commodo, orci ac vestibulum aliquam, odio mi pellentesque est, sed rhoncus purus neque vitae libero. Proin venenatis ornare risus eu consequat."
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/15/14/pp-hot-coffee-rf-istock.jpg?w968h681",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit imperdiet pellentesque. Praesent ac lectus quis felis viverra auctor. Aliquam facilisis risus ac lacus ornare, vitae faucibus ipsum hendrerit. Nam sit amet egestas nulla. Maecenas quis gravida velit. Aenean posuere suscipit dignissim. Vivamus rutrum odio nec venenatis blandit. Maecenas dapibus venenatis est. Pellentesque at est nibh. Aenean bibendum mi elit, quis porta massa auctor in. Nunc venenatis at arcu sed condimentum. Morbi sollicitudin fermentum elit, eu tempus neque feugiat nec. Nulla facilisi. Sed ac suscipit dui. Nullam commodo, orci ac vestibulum aliquam, odio mi pellentesque est, sed rhoncus purus neque vitae libero. Proin venenatis ornare risus eu consequat."
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/15/14/pp-hot-coffee-rf-istock.jpg?w968h681",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit imperdiet pellentesque. Praesent ac lectus quis felis viverra auctor. Aliquam facilisis risus ac lacus ornare, vitae faucibus ipsum hendrerit. Nam sit amet egestas nulla. Maecenas quis gravida velit. Aenean posuere suscipit dignissim. Vivamus rutrum odio nec venenatis blandit. Maecenas dapibus venenatis est. Pellentesque at est nibh. Aenean bibendum mi elit, quis porta massa auctor in. Nunc venenatis at arcu sed condimentum. Morbi sollicitudin fermentum elit, eu tempus neque feugiat nec. Nulla facilisi. Sed ac suscipit dui. Nullam commodo, orci ac vestibulum aliquam, odio mi pellentesque est, sed rhoncus purus neque vitae libero. Proin venenatis ornare risus eu consequat."
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/15/14/pp-hot-coffee-rf-istock.jpg?w968h681",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit imperdiet pellentesque. Praesent ac lectus quis felis viverra auctor. Aliquam facilisis risus ac lacus ornare, vitae faucibus ipsum hendrerit. Nam sit amet egestas nulla. Maecenas quis gravida velit. Aenean posuere suscipit dignissim. Vivamus rutrum odio nec venenatis blandit. Maecenas dapibus venenatis est. Pellentesque at est nibh. Aenean bibendum mi elit, quis porta massa auctor in. Nunc venenatis at arcu sed condimentum. Morbi sollicitudin fermentum elit, eu tempus neque feugiat nec. Nulla facilisi. Sed ac suscipit dui. Nullam commodo, orci ac vestibulum aliquam, odio mi pellentesque est, sed rhoncus purus neque vitae libero. Proin venenatis ornare risus eu consequat."
+    },
+    {
+      "id": 5,
+      "title": "Product 5",
+      "picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/15/14/pp-hot-coffee-rf-istock.jpg?w968h681",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit imperdiet pellentesque. Praesent ac lectus quis felis viverra auctor. Aliquam facilisis risus ac lacus ornare, vitae faucibus ipsum hendrerit. Nam sit amet egestas nulla. Maecenas quis gravida velit. Aenean posuere suscipit dignissim. Vivamus rutrum odio nec venenatis blandit. Maecenas dapibus venenatis est. Pellentesque at est nibh. Aenean bibendum mi elit, quis porta massa auctor in. Nunc venenatis at arcu sed condimentum. Morbi sollicitudin fermentum elit, eu tempus neque feugiat nec. Nulla facilisi. Sed ac suscipit dui. Nullam commodo, orci ac vestibulum aliquam, odio mi pellentesque est, sed rhoncus purus neque vitae libero. Proin venenatis ornare risus eu consequat."
+    },
+    {
+      "id": 6,
+      "title": "Product 6",
+      "picture": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/15/14/pp-hot-coffee-rf-istock.jpg?w968h681",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit imperdiet pellentesque. Praesent ac lectus quis felis viverra auctor. Aliquam facilisis risus ac lacus ornare, vitae faucibus ipsum hendrerit. Nam sit amet egestas nulla. Maecenas quis gravida velit. Aenean posuere suscipit dignissim. Vivamus rutrum odio nec venenatis blandit. Maecenas dapibus venenatis est. Pellentesque at est nibh. Aenean bibendum mi elit, quis porta massa auctor in. Nunc venenatis at arcu sed condimentum. Morbi sollicitudin fermentum elit, eu tempus neque feugiat nec. Nulla facilisi. Sed ac suscipit dui. Nullam commodo, orci ac vestibulum aliquam, odio mi pellentesque est, sed rhoncus purus neque vitae libero. Proin venenatis ornare risus eu consequat."
+    }
+  ]
+}
