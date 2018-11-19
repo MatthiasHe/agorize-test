@@ -1,3 +1,7 @@
-<p>
-  home works!
-</p>
+<h1 class="products-title">Products</h1>
+<div class="products-list">
+  <div *ngFor="let product of products" class="product">
+    <app-product-preview [product]="product"></app-product-preview>
+  </div>
+</div>
+

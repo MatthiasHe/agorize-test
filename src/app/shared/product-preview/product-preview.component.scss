@@ -1,0 +1,28 @@
+.product-card {
+  .product-picture {
+    object-fit: cover;
+    max-width: 100%;
+  }
+
+  .product-name {
+    text-align: center;
+  }
+
+  .product-description {
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    padding: 0 1em;
+    text-align: center;
+  }
+
+  .add-basket {
+    background-color: grey;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin: 1em auto;
+    display: block;
+    font-size: 1.2em;
+  }
+}
