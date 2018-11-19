@@ -1,0 +1,11 @@
+<div *ngIf="product.quantity" class="cart-product">
+  <span>X{{ product.quantity }}</span>
+  <img class="product-picture" [src]="product.picture">
+  <div class="product-text">
+    <p>{{ product.name}}</p>
+    <p class="product-description">{{ product.description}}</p>
+  </div>
+  <div class="product-actions">
+    <button class="remove-action" (click)="removeProduct(product)">REMOVE</button>
+  </div>
+</div>

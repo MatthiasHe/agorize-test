@@ -8,13 +8,17 @@ import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
 import { ProductPreviewComponent } from './shared/product-preview/product-preview.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { ProductInCartComponent } from './shared/product-in-cart/product-in-cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ProductPreviewComponent
+    ProductPreviewComponent,
+    CartComponent,
+    ProductInCartComponent,
   ],
   imports: [
     AppRoutingModule,

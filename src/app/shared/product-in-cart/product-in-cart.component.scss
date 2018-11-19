@@ -1,0 +1,28 @@
+.cart-product {
+  display: table;
+  border: 1px solid black;
+
+  > * {
+    display: table-cell;
+    padding: 0.5em 1em;
+    vertical-align: middle;
+  }
+
+  .product-picture {
+    width: 10em;
+  }
+
+  .product-text .product-description {
+    line-height: 1em;
+    height: 2em;
+    overflow: hidden;
+  }
+
+  .product-actions .remove-action {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+  }
+
+
+}

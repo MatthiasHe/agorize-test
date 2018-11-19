@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ProductInCart} from '../../services/products.service';
+import {ProductInCart, ProductsService} from '../../services/products.service';
 
 @Component({
   selector: 'app-product-preview',
@@ -9,12 +9,13 @@ import {ProductInCart} from '../../services/products.service';
 
 export class ProductPreviewComponent {
   @Input() product: ProductInCart;
+
   private productsCart: ProductInCart[];
 
-  constructor() { }
+  constructor(private productService: ProductsService) { }
 
   addInBasket() {
-    this.productsCart = JSON.parse(localStorage.getItem('cart')) ? JSON.parse(localStorage.getItem('cart')) : [];
+    this.productsCart = this.productService.getCartContent();
     if (this.productsCart.some(product => product.id === this.product.id)) {
       const productIndex = this.productsCart.findIndex(element => {
         return element.id === this.product.id;
@@ -24,7 +25,7 @@ export class ProductPreviewComponent {
       this.product.quantity = 1;
       this.productsCart.push(this.product);
     }
-    localStorage.setItem('cart', JSON.stringify(this.productsCart));
+    this.productService.updateCartContent(this.productsCart, true);
   }
 
 }

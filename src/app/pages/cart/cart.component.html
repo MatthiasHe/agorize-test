@@ -1,0 +1,7 @@
+<h1 class="cart-title">Cart</h1>
+<div *ngIf="!cartContent.length">
+  <h6 class="cart-empty">YOUR CART IS EMPTY</h6>
+</div>
+<div *ngFor="let product of cartContent" class="cart-product">
+  <app-product-in-cart [product]="product"></app-product-in-cart>
+</div>
