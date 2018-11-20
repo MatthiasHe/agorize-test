@@ -1,14 +1,19 @@
 import { AppPage } from './app.po';
 
-describe('workspace-project App', () => {
+describe('Agorize app', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  // Not finished
+  it('should add a product twice in cart and remove it', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to agorize-test!');
+    page.addProduct('.1');
+    page.addProduct('.1');
+    page.goToCart();
+    expect(page.getProductQuantity('.1')).toEqual('X2');
+    // page.removeProductFromCart('.1');
   });
 });

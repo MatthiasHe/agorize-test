@@ -1,5 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ProductInCart, ProductService} from '../../services/product.service';
+import {Subscription} from 'rxjs';
 
 @Component({
   selector: 'app-cart',
@@ -7,7 +8,7 @@ import {ProductInCart, ProductService} from '../../services/product.service';
   styleUrls: ['./cart.component.scss']
 })
 export class CartComponent implements OnInit, OnDestroy {
-  private cartSubscription: any;
+  private cartSubscription: Subscription;
 
   cartContent: ProductInCart[];
   isEmpty: boolean;
@@ -17,8 +18,8 @@ export class CartComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.cartContent = this.productService.getCartContent();
     this.isEmpty = !this.cartContent.length;
-    this.cartSubscription = this.productService.getCartNumber().subscribe(info => {
-      this.isEmpty = !info.productsNumber;
+    this.cartSubscription = this.productService.getCartNumber().subscribe(number => {
+      this.isEmpty = !number;
     });
   }
 

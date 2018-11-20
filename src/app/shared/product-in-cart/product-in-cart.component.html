@@ -1,5 +1,5 @@
-<div *ngIf="product.quantity" class="cart-product">
-  <span>X{{ product.quantity }}</span>
+<div *ngIf="product.quantity" class="cart-product" [ngClass]="[product.id].toString()">
+  <span class="product-quantity">X{{ product.quantity }}</span>
   <img class="product-picture" [src]="product.picture">
   <div class="product-text">
     <p>{{ product.name}}</p>

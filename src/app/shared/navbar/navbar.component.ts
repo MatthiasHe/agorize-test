@@ -13,8 +13,8 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
     this.productsInCart = this.productService.initializeCart();
-    this.productService.getCartNumber().subscribe(info => {
-      this.productsInCart = info.productsNumber;
+    this.productService.getCartNumber().subscribe(number => {
+      this.productsInCart = number;
     });
   }
 

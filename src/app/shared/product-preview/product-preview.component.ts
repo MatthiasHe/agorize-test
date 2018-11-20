@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {ProductInCart, ProductService} from '../../services/product.service';
 
 @Component({
@@ -15,13 +15,16 @@ export class ProductPreviewComponent {
   constructor(private productService: ProductService) { }
 
   addInCart() {
+    // We get the actual cart's content from localStorage
     this.productsCart = this.productService.getCartContent();
     if (this.productsCart.some(product => product.id === this.product.id)) {
+      // The product is already in the cart
       const productIndex = this.productsCart.findIndex(element => {
         return element.id === this.product.id;
       });
       this.productsCart[productIndex].quantity++;
     } else {
+      // The product is not present in the cart
       this.product.quantity = 1;
       this.productsCart.push(this.product);
     }
